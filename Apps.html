@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activity Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="selection">
+    <div class="h1">/Easy Plenary</div>
+    <div class="square" id="luckyDip">Lucky Dip</div>
+    <div class="square" id="strap">Advertising strapline</div>
+    <div class="square" id="disemvowel">Disemvoweller</div>
+    <div class="square" id="exitPass">Exit Pass</div>
+    <div class="square" id="filmTitle">Film Title</div>
+    <div class="square" id="likeA">Like A</div>
+    <div class="square" id="songLyric">Song Lyric</div>
+    <div class="square" id="jumbler">Jumbler</div>
+    <div class="square" id="randomiser">Randomiser</div>
+    <div class="square" id="WordSquare">Word Square</div>
+    <div class="square" id="xWords">xWords</div>
+    <div class="square" id="justAMinute">Just a Minute</div>
+</div>
+<div id="design">
+    <div class="h1">Setup</div>
+    <div class="taskText">Enter Keywords </div>
+    <input type="text" placeholder="keyword" id="keyword1">
+    <br>
+    <label for="timings">Time allowed</label>
+    <select name="secs" id="timings" required>
+        <option value="">None</option>
+        <option value="60">1 minute</option>
+        <option value="120">2 minutes</option>
+        <option value="180">3 minutes</option>
+        <option value="240">4 minutes</option>
+        <option value="300">5 minutes</option>
+
+    </select>
+    <div id="display" class="h1">
+        <label for="board">Board</label>
+        <input type="radio" id="board" name="media" value="board">
+        <label for="mobile">Mobile</label>
+        <input type="radio" id="mobile" name="media" value="media">
+    </div>
+    <button>Select</button>
+</div>
+<div id="splash">
+    <div class="h1">Setup</div>
+    <div class="square">Play</div>
+</div>
+<div id="activity">
+    <div class="h1">Activity</div>
+</div>
+<div id="results">
+    <div class="h1">Results</div>
+</div>
+
+</body>
+</html>
