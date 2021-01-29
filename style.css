@@ -12,13 +12,14 @@ body{
    margin:4px;
    padding:0;
    font:16pt "Arial Rounded MT Bold";
+   box-shadow: 0 0 8px yellow;
 }
+
 .square:hover{
-   font:18pt "Arial Rounded MT Bold";
-   box-shadow: 0 3px;
+   box-shadow: 0 0 15px yellow;
 }
 .square:active{
-   width:22%;
+   width:23%;
    font:16pt "Arial Rounded MT Bold";
    box-shadow: 0 0;
 }
